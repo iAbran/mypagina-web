@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border: solid;
+    border-color: blue;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: linear-gradient(45deg, aqua, green);
+}
+.contenedor-header{
+    width: 900px;
+    margin: 0 auto;
+    display: flex ;
+    justify-content: center;
+}
+.contenedor-header .titulo-principal{
+    width: 200px;
+}
+
+.contenedor-header nav{
+    border-color: black;
+    position: relative;
+    width: 375px;
+    height: 70px;   
+}
+
+nav ul {
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    height: 60px;
+    margin: 0 auto;
+    right: 200px;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: 0 8px;
+    right: px;
+}
+
+li a{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+}
+/*sectiones */
+.section-1{
+    border: solid;
+    border-color: red;
+    width: 100%;
+    margin: 20px 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+
+/* diseñoso de la primera section*/
+.contenedor-principal-acerca{
+    border: solid;
+    width: 900px;
+}
+.contenedor-principal-acerca h2{
+    border: solid;
+    
+}
+.informacion{
+    border: solid;
+    width: 500px;
+    height: 400px;
+}
+
+/* diseñoso de la segunda section*/
+.section-2{
+    border: solid;
+    border-color: blue;
+
+    width: 100%;
+    height: 100vh;
+    margin: 20px 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(175deg,white, black);
+}
+.section-2 .contenedor-principal-proyecto{
+    border: solid;
+    border-color: green;
+
+    width: 950px;
+    height: 100vh;
+    position: relative;
+    justify-content: center;
+}
+.contenedor-principal-proyecto .titulo-principal-proyecto{
+   width: 100%;
+   display: block;
+}
+.contenedor-proyecto{
+    position: relative;
+    width: 100%;
+}
+
+.contenedor-proyecto, .proyectos{
+    border: solid;
+    margin: 20px 0;
+}
+
+img{
+    width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        width: 100%;
+        height: 100%;
+    
+        
+       
+        position: relative;
+
+
+    }
+    h1{
+        width: 100%;
+        
+    }
+    input{
+        width: 100%;
+    }
+    .contenedor-header{
+        width: 100%;
+        flex-direction: column; 
+        flex-wrap: nowrap; 
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .contenedor-principal-acerca{
+        width: 100%;
+    }
+    .informacion{
+        width: 100%;
+    }
+}
